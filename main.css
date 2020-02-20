@@ -1,0 +1,46 @@
+
+
+img {
+    border: double black;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.district {
+    color: red;
+    font-weight: bold;
+}
+
+.affiliation {
+    color: red;
+    font-weight: bold;
+    
+}
+
+.rep__committees {
+    border: solid black;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.committee {
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.legislation {
+    border: solid black;
+    border-radius: 5px;
+}

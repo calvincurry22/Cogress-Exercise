@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <!--The article is a container for each different section component-->
+    <article class= "representative">
+        <!--This first section contains the representative's image, name, district, and affiliation-->
+        <section class= "rep__info">
+            <!-- This is a div that contains an image-->
+            <div class= "image">
+                <img src="https://www.govtrack.us/static/legislator-photos/300002-100px.jpeg" alt="Lamar Alexander">
+            </div>
+            <!-- This is a div that contains an h2 element that prints the representative's name-->
+            <div class= "name">
+                <h2>Sen. Lamar Alexander</h2>
+            </div>
+            <!-- This is a div that contains the representative's district info-->
+            <div class= "district">6th Congressional District</div>
+            <!-- This is a div that contains the representative's affiliation-->
+            <div class= "affiliation">Republican</div>
+        </section>
+    <!-- The section below contains information about the representative's committees-->
+        <section class= "rep__committees">
+        <!--This h3 element prints the Committees header for this section-->
+            <h3 class= "committee">Committees</h3>
+            <!-- This is an unordered list that lists each of the representative's active committees-->
+            <ul>
+                <li>Senate Committee on Health, Education, Labor, and Pensions</li>
+                <li>Senate Committee on Appropriations</li>
+                <li>Senate Committee on Energy and Natural Resources</li>
+                <li>Senate Committee on Rules and Administration</li>
+            </ul>
+        </section>
+        <!--This section contains elements with information regarding the representative's enacted legislation -->
+        <section class= "rep__legislation">
+            <!--This h3 element prints the header for this section of information on the web page-->
+            <h3 class= "legislation">Enacted Legislation</h3>
+            <!--These anchor elements each contain a link to each congress bill-->
+            <a href="https://www.govtrack.us/congress/bills/116/s2470">Energy and Water Development and Related Agencies Appropriations Act, 2020</a>
+            <br>
+            <a href="https://www.govtrack.us/congress/bills/116/s140">James K. Polk Presidential Home Study Act</a>
+            <br>
+            <a href="https://www.govtrack.us/congress/bills/116/s138">Shiloh National Military Park Boundary Adjustment and Parker's Crossroads Battlefield Designation Act</a>
+            <br>
+            <a href="https://www.govtrack.us/congress/bills/115/s3029">PREEMIE Reauthorization Act of 2018</a>
+        </section>
+    </article>
+</body>
+</html>
